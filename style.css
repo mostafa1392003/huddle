@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenar {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+
+.navbar .logo img {
+    width: 150px;
+    position: relative;
+    left: 15px;
+
+}
+
+.navbar .free button {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    box-shadow: -1px 1px 14px 0px #555;
+    text-transform: capitalize;
+    position: relative;
+    right: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.navbar .free button:hover {
+    background-color: #ff9ada;
+    color: #edfbfe;
+}
+
+.perant {
+    background-color: #edfbfe;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+}
+
+.section1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+
+
+
+.left-side {
+    width: 45%;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.left-side p {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.left-side span {
+    max-width: 80%;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.buttom2 {
+    width: 100%;
+    position: relative;
+}
+
+.left-side button {
+    position: relative;
+    left: 130px;
+    margin-top: 30px;
+    border: none;
+    background-color: #fe52be;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.left-side button:hover {
+    background-color: #ff9ada;
+}
+
+.section1 .right-side {
+    width: 55%;
+
+}
+
+.section1 .right-side img {
+    width: 100%;
+}
+
+.perant-sction {
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    background-color: white;
+    height: fit-content;
+    margin-bottom: 130px;
+}
+
+
+
+.perant-sction .section {
+    display: flex;
+    height: fit-content;
+    box-shadow: 0px 1px 11px 1px #ddd;
+    margin-bottom: 25px;
+}
+
+.perant-sction section {
+    width: 96%;
+    margin: auto;
+}
+
+.perant-sction .section .left-side {
+    width: 50%;
+    position: relative;
+    top: 80px;
+    left: 40px;
+    text-transform: capitalize;
+
+}
+
+.perant-sction .section .right-side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.perant-sction .section .right-side img {
+    width: 80%;
+
+}
+
+.perant-sction .num3 {
+    flex-direction: row-reverse;
+}
+
+footer {
+    position: relative;
+}
+
+footer .content {
+    text-transform: capitalize;
+    background-color: #00252e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    align-items: flex-end;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+footer div {
+    width: 23%;
+    padding-left: 40px;
+}
+
+footer div ul {
+    list-style: none;
+
+}
+
+footer div ul li,
+footer div p {
+    margin: 20px 0;
+}
+
+.footer-div4 span {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-div4 span i {
+    color: white;
+    font-size: 20px;
+}
+.footer-div4 span:hover{
+    background-color: white;
+}
+.footer-div4 i:hover{
+    color: #00252e;
+}
+.popap {
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform:translate(-50%,30%) ;
+    width: 40%;
+    height: 150px;
+    background-color: white;
+    -webkit-transform:translate(-50%,30%) ;
+    -moz-transform:translate(-50%,30%) ;
+    -ms-transform:translate(-50%,30%) ;
+    -o-transform:translate(-50%,30%) ;
+    box-shadow: 1px 1px 16px 2px #3d3c3c;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    text-align: center;
+    padding-left: 0;
+}
+.popap p {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color:#00252e;
+  
+
+}
+.popap button{
+    border: none;
+    background-color: #fe52be;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width: 70%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.popap button:hover{
+    background-color: #ff9ada;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+
+    .navbar .free button{
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .navbar .logo img {
+        width: 100px;
+    }
+
+
+
+    .contenar{
+        width: 100%;
+        padding: 10px;
+       }
+       .perant {
+        background-color: #edfbfe;
+        background-image: url(../images/bg-hero-mobile.svg);
+        background-size: cover;
+        width: 100%;
+        height: fit-content;
+    }
+    .perant .section1 {
+        display: block;
+        margin-top: 40px;
+       
+    }
+
+    .perant .section1 .left-side {
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .perant  .section1 .right-side {
+    position: relative;
+    top: 25px;
+        width: 100%;
+    }
+
+    .perant  .section1 .right-side {
+       margin: auto;
+        width: 90%;
+    }
+
+    .perant-sction .section {
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .perant-sction .section p {
+        font-size: 22px ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .perant-sction .section span {
+        padding-left: 20px;
+    }
+    .perant-sction .num3 {
+        flex-direction: column-reverse;
+    }
+    .perant-sction .section .left-side {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-transform: capitalize;
+    }
+    .perant-sction .section .right-side {
+        width: 100%;
+    }
+
+
+    .popap {
+        position: absolute;
+          left: 120px;
+        top: -120px;
+        width: 90%;
+        height: 150px;
+        background-color: white;
+        -webkit-transform:translate(-30%) ;
+        -moz-transform:translate(-30%) ;
+        -ms-transform:translate(-30%) ;
+        -o-transform:translate(-30%) ;
+        box-shadow: 1px 1px 16px 2px #3d3c3c;
+        border-radius:10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        -ms-border-radius:10px;
+        -o-border-radius:10px;
+        text-align: center;
+        padding-left: 0;
+}
+
+footer .content {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    height:fit-content;
+    padding-left: 5px;
+}
+footer .content div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.footer-div4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+.popap button{
+    font-size: 18px;
+}
+
+
+}
